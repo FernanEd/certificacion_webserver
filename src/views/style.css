@@ -1,0 +1,50 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Monospace";
+  color: #555;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  font-weight: "bold";
+  color: #333;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table > thead > tr > th:first-child {
+  width: 60%;
+}
+
+table > thead > tr > th:last-child {
+  width: 40%;
+}
+
+table th {
+  background-color: rgb(255, 175, 146);
+}
+
+table th,
+td {
+  padding: 0.25rem 1rem;
+  text-align: center;
+  border: 1px solid lightgray;
+}

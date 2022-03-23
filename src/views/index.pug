@@ -1,0 +1,20 @@
+extend layout.pug
+
+block content 
+  main
+    h1 REGISTROS DE LLEGADAS A CERRADURA
+    table 
+      thead
+        tr
+          th Tarjeta 
+          th Tiempo de llegada 
+      tbody
+        tr 
+          td=Math.random().toString().slice(2)
+          td=new Date().toLocaleString()
+        tr 
+          td=Math.random().toString().slice(2)
+          td=new Date().toLocaleString()
+        tr 
+          td=Math.random().toString().slice(2)
+          td=new Date().toLocaleString()
