@@ -1,0 +1,249 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "certificacion",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "dev": "nodemon src/server.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FernanEd/certificacion_webserver.git"
+      },
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/FernanEd/certificacion_webserver/issues"
+      },
+      "homepage": "https://github.com/FernanEd/certificacion_webserver#readme",
+      "dependencies": {
+        "@types/morgan": "^1.9.3",
+        "@types/node": "^17.0.23",
+        "express": "^4.17.3",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15",
+        "prisma": "^3.11.0",
+        "pug": "^3.0.2",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2"
+      },
+      "devDependencies": {
+        "@types/express": "^4.17.13"
+      }
+    },
+    "prefix": "/home/febm/UNE/certificacion"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/home/febm/.pnpm-store/v3",
+    "virtualStoreDir": "/home/febm/UNE/certificacion/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/febm/UNE/certificacion",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/express/4.17.13",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/express",
+      "rawSpec": "^4.17.13"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/morgan/1.9.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/morgan",
+      "rawSpec": "^1.9.3"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/node/17.0.23",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/node",
+      "rawSpec": "^17.0.23"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.17.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "^4.17.3"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/morgan/1.10.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "morgan",
+      "rawSpec": "^1.10.0"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nodemon/2.0.15",
+    "wanted": {
+      "dependentId": ".",
+      "name": "nodemon",
+      "rawSpec": "^2.0.15"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prisma/3.11.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prisma",
+      "rawSpec": "^3.11.0"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/pug/3.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "pug",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ts-node/10.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "ts-node",
+      "rawSpec": "^10.7.0"
+    }
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.6.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^4.6.2"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/express/4.17.13",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/express/4.17.13",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/morgan/1.9.3",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/morgan/1.9.3",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/node/17.0.23",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/node/17.0.23",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/morgan/1.10.0",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/morgan/1.10.0",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pug/3.0.2",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pug/3.0.2",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prisma/3.11.0",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prisma/3.11.0",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ts-node/10.7.0",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ts-node/10.7.0",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "found_in_store"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "requester": "/home/febm/UNE/certificacion",
+    "status": "resolved"
+  },
+  "34 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@types/prisma is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/@types%2Fprisma"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@types/prisma",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@types%2Fprisma: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/@types%2Fprisma: Not Found - 404\n    at RetryOperation._fn (/home/febm/.nvm/versions/node/v17.4.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:85709:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

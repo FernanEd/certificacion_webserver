@@ -10,8 +10,18 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Llegadas{
+model Llegada{
   id  Int @id @default(autoincrement())
-  tarjeta Int
+  num_tarjeta String
   timestamp DateTime @default(now())
+
+  tarjeta Tarjeta  @relation(fields: [num_tarjeta], references: [num_tarjeta])
+}
+
+model Tarjeta{
+  id  Int @id @default(autoincrement())
+  nombre String @unique
+  num_tarjeta String @unique
+
+  llegadas Llegada[]
 }
